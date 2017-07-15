@@ -10,6 +10,8 @@ namespace chapter1
     {
         static void Main(string[] args)
         {
+            person p = new person("tom", 25);
+            p.talks();
         }
     }
 }
